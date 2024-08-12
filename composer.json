@@ -1,5 +1,5 @@
 {
-    "name": "lp/twofa",
+    "name": "listra/twofa",
     "description": "working with 2fa use laravel passport",
     "autoload": {
         "psr-4": {
@@ -16,8 +16,8 @@
     "require": {
         "php": "^7.4|^8.0",
         "bacon/bacon-qr-code": "^2.0",
-        "pragmarx/google2fa-laravel": "^2.0",
-        "laravel/passport": "^10.3"
+        "pragmarx/google2fa-laravel": "^2.2.0",
+        "laravel/passport": "^11.0"
     },
     "require-dev": {
         "roave/security-advisories": "dev-latest"
